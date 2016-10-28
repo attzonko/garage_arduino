@@ -1,2 +1,2 @@
 # garage_arduino
-My first arduino project used to open/close garage door remotely
+My first arduino project used to open/close garage door remotely (arduino-0022)
