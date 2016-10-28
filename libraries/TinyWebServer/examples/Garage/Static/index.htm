@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Begin Head -->
+<head>
+    
+    <!-- Meta Data -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    
+    <!-- Apple Web App -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+
+    <!-- Stylesheets -->
+	<script type="text/javascript">
+		if((navigator.userAgent.match(/iPhone/i))) {
+			document.write("<link rel=\"apple-touch-startup-image\" href=\"iphone.png\" \/>");
+	    	document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"iphone.css\" charset=\"utf-8\" \/>");
+		}
+		else if(navigator.userAgent.match(/iPad/i)) {
+			document.write("<link rel=\"apple-touch-startup-image\" href=\"ipad.png\" \/>");
+			document.write("<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"ipad.css\" charset=\"utf-8\" \/>");
+		}
+	</script>
+    <link rel="apple-touch-icon" href="57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="114x114.png" />
+
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <!-- Page Title -->
+    <title>Garage</title>
+    
+</head>
+<!-- End Head -->
+
+<body>
+
+<div class="parent">
+	<div class="action" onTouchStart="press_button();" onTouchEnd="release_button();"></div> 
+	<div id="button_up" class="up"></div> 
+	<div class="down"></div>
+</div>
+</body>
+</html>
+
+
+
+
+
